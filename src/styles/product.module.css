@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100&display=swap");
+* {
+    transition: 0.25s;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product {
+    transition: 0.25s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;
+    height: 550px;
+    -webkit-box-shadow: 0px 4px 13.7px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 4px 13.7px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 13.7px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 21px;
+}
+
+.imageContainer {
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/kyhcLVF/image-removebg-preview.png");
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.topInfo {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colorContainer {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorContainer button {
+    padding: 10px;
+    border: 0;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.colorContainer span {
+    font-size: 16px;
+}
+
+.bottomInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    height: 93px;
+}
+
+.priceContainer {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.detailBtn {
+    cursor: pointer;
+    align-self: flex-end;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 5px 30px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.product:hover .detailBtn {
+    opacity: 1;
+}
+
+.product:hover {
+    height: 580px;
+    width: 340px;
+}
+
+.detailBtn:hover {
+    border: 1px solid #fff;
+    background-color: rgb(255, 220, 81);
+}
+
+.product:hover .topInfo {
+    height: 380px;
+}
