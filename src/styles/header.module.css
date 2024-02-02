@@ -7,7 +7,9 @@
     text-align: center;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 .links {
     display: flex;
@@ -38,4 +40,8 @@ header {
     justify-content: center;
     display: flex;
     width: 900px;
+}
+
+.logo img {
+    cursor: pointer;
 }

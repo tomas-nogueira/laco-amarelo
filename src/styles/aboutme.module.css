@@ -9,32 +9,33 @@
 }
 
 .container {
-    padding: 50px 0;
-    gap: 100px;
-    height: 100vh;
+    gap: 50px;
+    height: calc(100vh - 130px);
     display: flex;
     align-items: center;
 }
 
 .imageContainer {
-    height: 100%;
-    width: 700px;
+    display: flex;
+    align-self: flex-end;
 }
 
 .imageContainer img {
-    width: 700px;
+    align-self: flex-end;
+    width: 750px;
 }
 
 .textContainer {
     display: flex;
     flex-direction: column;
-
-    gap: 15px;
+    padding: 100px 0 0 0;
+    gap: 25px;
     height: 100%;
     width: 700px;
 }
 
 .title h2 {
+    letter-spacing: -1.5px;
     font-size: 64px;
     text-align: left;
     font-weight: 600;
@@ -46,4 +47,45 @@
 .textContainer p {
     font-size: 22px;
     text-align: left;
+    color: #737373;
+    padding: 0 0 25px 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.iconContainer {
+    gap: 20px;
+    display: flex;
+}
+
+.icon {
+    box-sizing: content-box;
+    fill: #bdbdbd;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.icon:hover {
+    background-color: #ececec;
+}
+
+.textMainContainer {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.facebook:hover {
+    background-color: #ececec;
+}
+
+.facebook {
+    transition: 0.2s;
+    box-sizing: content-box;
+    fill: #bdbdbd;
+    padding: 10px;
+    height: 26px;
+    width: 29px;
 }

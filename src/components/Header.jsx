@@ -5,18 +5,28 @@ export default function Header() {
     return (
         <header>
             <div className={Style.logo}>
-                <img
-                    src="https://cdn-sites-images.46graus.com/files/photos/bc1139b2/2c0773e3-96a2-4afc-ad65-bfe4cfaa55bc/logo_oficial_2-354x96.jpg"
-                    alt="Logo Laço Amarelo"
-                />
+                <a href="/">
+                    <img
+                        src="https://cdn-sites-images.46graus.com/files/photos/bc1139b2/2c0773e3-96a2-4afc-ad65-bfe4cfaa55bc/logo_oficial_2-354x96.jpg"
+                        alt="Logo Laço Amarelo"
+                    />
+                </a>
             </div>
 
             <div className={Style.linksContainer}>
                 <ul className={Style.links}>
-                    <li>GALERIA</li>
-                    <li>PRODUTOS</li>
-                    <li>SOBRE MIM</li>
-                    <li>CONTATO</li>
+                    <li>
+                        <a href="">GALERIA</a>
+                    </li>
+                    <li>
+                        <a href="">PRODUTOS</a>
+                    </li>
+                    <li>
+                        <a href="/sobremim">SOBRE MIM</a>
+                    </li>
+                    <li>
+                        <a href="">CONTATO</a>
+                    </li>
                 </ul>
             </div>
         </header>
