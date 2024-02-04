@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Style from "../styles/aboutme.module.css";
-import BannerPhoto from "../assets/aboutmebanner.jpg";
+import BannerPhoto from "../assets/sobremimbanner.png";
 import ReactDOM from "react-dom";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
@@ -16,7 +16,7 @@ function AboutMe() {
             <div className={Style.container}>
                 <div className={Style.imageContainer}>
                     <img
-                        src="https://i.ibb.co/DwfyVK4/Vector.png"
+                        src= {BannerPhoto}
                         alt="Imagem"
                     />
                 </div>
