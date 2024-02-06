@@ -64,6 +64,7 @@
     bottom: 20px;
     cursor: pointer;
     z-index: 999;
+    transition: 0.3s;
 }
 
 .arrow:hover {

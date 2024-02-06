@@ -22,14 +22,41 @@ export default () => {
       </div>
 
         <Swiper
+
+      style={{
+        "--swiper-pagination-color": "#FFD83D",
+        "--swiper-theme-color": "#FFD83D",
+        "--swiper-pagination-bullet-inactive-color": "#999999",
+        "--swiper-pagination-bullet-inactive-opacity": "1",
+
+      }}
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      slidesPerView={1}
+      slidesPerView={3}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
+      loop
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
+      breakpoints={{
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        425: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+      }}
     >
       <SwiperSlide><img src={One} alt="" class={Style.img}/></SwiperSlide>
       <SwiperSlide><img src={One} alt="" /></SwiperSlide>

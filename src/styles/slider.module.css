@@ -3,7 +3,7 @@
 }
 
 .criando {
-    padding: 4rem;
+    padding: 6rem;
     font-size: 3rem;
     font-weight: 600;
     color: #656565;
@@ -11,12 +11,4 @@
 
 .laco {
     color: #FFCC02;
-}
-
-.direitos {
-    font-size: 1.4rem;
-}
-
-.img {
-    height: 45rem;
 }
