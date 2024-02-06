@@ -45,7 +45,7 @@
 }
 
 .btn:hover {
-    scale: 1.05;
+    padding: 8px 50px;
 }
 
 .divTexto{
@@ -63,6 +63,7 @@
     right: 40px;
     bottom: 20px;
     cursor: pointer;
+    z-index: 999;
 }
 
 .arrow:hover {

@@ -1,16 +1,22 @@
 .container{
-    display: flex;
-    flex-direction: column;
-    padding: 7rem 0;
-    gap: 5rem;
+    height: 100vh;
 }
 
 .criando {
-    font-size: 2rem;
+    padding: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     color: #656565;
 }
 
 .laco {
     color: #FFCC02;
+}
+
+.direitos {
+    font-size: 1.4rem;
+}
+
+.img {
+    height: 45rem;
 }
