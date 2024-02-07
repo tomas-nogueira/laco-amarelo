@@ -49,10 +49,10 @@ export default () => {
           spaceBetween: 40,
         },
         768: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 40,
         },
-        1024: {
+        1920: {
           slidesPerView: 3,
           spaceBetween: 40,
         },
@@ -63,6 +63,10 @@ export default () => {
       <SwiperSlide><img src={One} alt="" /></SwiperSlide>
       <SwiperSlide><img src={One} alt="" /></SwiperSlide>
       </Swiper>
+
+      <div>
+        <button class={Style.btn}>Ver mais!</button>
+      </div>
     </div>
       
   );

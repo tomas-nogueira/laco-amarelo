@@ -12,3 +12,32 @@
 .laco {
     color: #FFCC02;
 }
+
+.btn {
+    cursor: pointer;
+    align-self: flex-end;
+    height: 52px;
+    font-size: 22px;
+    background-color: #FFD941;
+    font-weight: 550;
+    border: none;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 30px;
+    transition: 0.2s;
+    margin-top: 5em;
+}
+
+.btn:hover {
+    padding: 8px 50px;
+}
+
+@media screen and (max-width: 799px){
+    .criando {
+        padding: 4rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #656565;
+        width: 100%;
+    }
+}
