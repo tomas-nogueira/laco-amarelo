@@ -32,6 +32,10 @@
     padding: 8px 50px;
 }
 
+.img {
+    width: 600px;
+}
+
 @media screen and (max-width: 799px){
     .criando {
         padding: 4rem;

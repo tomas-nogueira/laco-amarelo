@@ -35,15 +35,18 @@ const Ul = styled.ul`
       color: #fff;
     }
   }
+  li:hover {
+    background-color: rgb(255, 239, 175);
+  }
 `;
 
 const RightNav = ({ open }) => {
   return (
     <Ul open={open} className='ul'>
       <li>GALERIA</li>
-      <a href="/produtos"><li>PRODUTOS</li></a>
-      <a href="/sobremim"><li>SOBRE MIM</li></a>
-      <li>CONTATO</li>
+      <li><a href="/produtos">PRODUTOS</a></li>
+      <li><a href="/sobremim">SOBRE MIM</a></li>
+      <li><a href="/contato">CONTATO</a></li>
     </Ul>
   )
 }
