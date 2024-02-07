@@ -147,7 +147,7 @@
 }
 
 @media screen and (max-width: 779px){
-    .TextoHome{
+    .TextoMob{
         display: none;
     }
     .textoP {
@@ -195,5 +195,9 @@
         justify-content: center;
         align-items: center;
         margin-top: 3em;
+    }
+
+    .TextoHome {
+        width: 22em;
     }
 }
