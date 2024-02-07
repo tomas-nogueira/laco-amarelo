@@ -198,6 +198,9 @@
     }
 
     .TextoHome {
+        width: 20em;
+    }
+    .CarlaMob {
         width: 22em;
     }
 }

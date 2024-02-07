@@ -3,7 +3,7 @@ import TextoHome from "../photos/TextoHome.png"
 import Style from "../styles/banner.module.css"
 import Carla from "../photos/carla.png"
 import Arrow from "../photos/arrow.png"
-import CarlaMobile from "../photos/CarlaMobile.png"
+import CarlaMobile from "../photos/carlamob2.png"
 import TextoMobile from "../photos/TextoMobile.png"
 
 function Banner() {
