@@ -9,6 +9,7 @@ const Ul = styled.ul`
   li {
     padding: 30px 18px;
     font-size: 1.1em;
+    cursor: pointer;
   }
 
   .ul{
@@ -40,8 +41,8 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open} className='ul'>
       <li>GALERIA</li>
-      <li>PRODUTOS</li>
-      <li>SOBRE MIM</li>
+      <a href="/produtos"><li>PRODUTOS</li></a>
+      <a href="/sobremim"><li>SOBRE MIM</li></a>
       <li>CONTATO</li>
     </Ul>
   )
