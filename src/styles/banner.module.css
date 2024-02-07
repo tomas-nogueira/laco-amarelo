@@ -203,4 +203,7 @@
     .CarlaMob {
         width: 22em;
     }
+    .arrow {
+        display: none;
+    }
 }
