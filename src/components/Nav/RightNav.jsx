@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Style from "./rightnav.module.css";
+import Style from "../../styles/rightnav.module.css";
 
 const Ul = styled.ul`
     list-style: none;
@@ -33,6 +33,10 @@ const Ul = styled.ul`
 
         li {
             color: #fff;
+        }
+        a {
+            color: #fff;
+            font-weight: 500;
         }
     }
     li:hover {

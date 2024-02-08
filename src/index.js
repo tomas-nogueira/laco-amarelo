@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import AboutMe from "./pages/AboutMe";
+import AboutMe from "./pages/AboutMe.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Produtos from "./pages/Produtos";
 
@@ -17,8 +17,8 @@ const router = createBrowserRouter([
     },
     {
         path: "/produtos",
-        element: <Produtos />
-    }
+        element: <Produtos />,
+    },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

@@ -6,36 +6,36 @@
     box-sizing: border-box;
     text-align: center;
 }
-@media screen and (min-width:1380px){
+@media screen and (min-width: 1380px) {
     .Mcontainer {
         width: 90vw;
         display: flex;
         justify-content: space-around;
     }
-    
+
     .containerL {
-        height: 70vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 1.5rem;
     }
-    
+
     .carla {
         width: 42rem;
     }
-    
+
     .textoP {
         font-size: 1.5em;
         color: #656565;
     }
-    
+
     .btn {
         cursor: pointer;
         align-self: flex-end;
         height: 52px;
         font-size: 22px;
-        background-color: #FFD941;
+        background-color: #ffd941;
         font-weight: 550;
         border: none;
         color: white;
@@ -43,22 +43,22 @@
         border-radius: 30px;
         transition: 0.2s;
     }
-    
+
     .btn:hover {
         padding: 8px 50px;
     }
-    
-    .divTexto{
+
+    .divTexto {
         display: flex;
         justify-content: center;
         width: 600px;
     }
-    
+
     .arrow {
         padding: 15px;
         border-radius: 50%;
         border: none;
-        background-color: #FFDC51;
+        background-color: #ffdc51;
         position: fixed;
         right: 40px;
         bottom: 20px;
@@ -66,24 +66,23 @@
         z-index: 999;
         transition: 0.3s;
     }
-    
+
     .arrow:hover {
         scale: 1.09;
     }
-    
+
     .TextoMob {
         display: none;
     }
     .CarlaMob {
         display: none;
     }
-    .text2mob{
+    .text2mob {
         display: none;
     }
-    
 }
-@media screen and (min-width: 780px) and (max-width: 1379px){
-    .TextoHome{
+@media screen and (min-width: 780px) and (max-width: 1379px) {
+    .TextoHome {
         display: none;
     }
     .textoP {
@@ -96,7 +95,7 @@
         padding: 15px;
         border-radius: 50%;
         border: none;
-        background-color: #FFDC51;
+        background-color: #ffdc51;
         position: fixed;
         right: 40px;
         bottom: 20px;
@@ -104,13 +103,13 @@
         z-index: 999;
         transition: 0.3s;
     }
-    
+
     .btn {
         cursor: pointer;
         align-self: flex-end;
         height: 45px;
         font-size: 22px;
-        background-color: #FFD941;
+        background-color: #ffd941;
         font-weight: 550;
         border: none;
         color: white;
@@ -124,7 +123,7 @@
         font-size: 1.1em;
     }
 
-    .containerL{
+    .containerL {
         display: flex;
         flex-direction: column;
         gap: 2em;
@@ -146,8 +145,8 @@
     }
 }
 
-@media screen and (max-width: 779px){
-    .TextoMob{
+@media screen and (max-width: 779px) {
+    .TextoMob {
         display: none;
     }
     .textoP {
@@ -160,7 +159,7 @@
         padding: 15px;
         border-radius: 50%;
         border: none;
-        background-color: #FFDC51;
+        background-color: #ffdc51;
         position: fixed;
         right: 40px;
         bottom: 20px;
@@ -168,13 +167,13 @@
         z-index: 999;
         transition: 0.3s;
     }
-    
+
     .btn {
         cursor: pointer;
         align-self: flex-end;
         height: 45px;
         font-size: 22px;
-        background-color: #FFD941;
+        background-color: #ffd941;
         font-weight: 550;
         border: none;
         color: white;
@@ -188,7 +187,7 @@
         font-size: 1.1em;
     }
 
-    .containerL{
+    .containerL {
         display: flex;
         flex-direction: column;
         gap: 2em;
