@@ -5,6 +5,7 @@ import App from "./App";
 import AboutMe from "./pages/AboutMe.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Produtos from "./pages/Produtos";
+import Contato from "./pages/Contato.jsx";
 
 const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path: "/produtos",
         element: <Produtos />,
     },
+    {
+        path: "/contato",
+        element: <Contato />,
+    }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

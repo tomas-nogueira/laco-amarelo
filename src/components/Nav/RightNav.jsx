@@ -6,6 +6,7 @@ const Ul = styled.ul`
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
+    z-index: 10;
 
     li {
         font-size: 1.1em;

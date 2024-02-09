@@ -61,7 +61,7 @@ const Banner = () => {
                         animate={controls}
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
-                        <button class={Style.btn}>Contate-me!</button>
+                        <a href="/contato"><button class={Style.btn}>Contate-me!</button></a>
                     </motion.div>
                 </div>
                 <div class={Style.containerR}>
