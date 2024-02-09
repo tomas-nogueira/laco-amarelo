@@ -6,7 +6,7 @@ function Product(props) {
         <div className={Style.product}>
             <div className={Style.topInfo}>
                 <div className={Style.imageContainer}></div>
-
+                <img src={props.img} alt="" />
                 <p className={Style.title}>{props.text}</p>
                 <p>{props.desc}</p>
             </div>
@@ -15,7 +15,7 @@ function Product(props) {
                 <div className={Style.priceContainer}>
                     <div className={Style.colorContainer}>
                         <span>Cor:</span>
-                        <button> </button>
+                        <button style={{backgroundColor: props.color}}> </button>
                     </div>
                     <p>R$99,99</p>
                 </div>
