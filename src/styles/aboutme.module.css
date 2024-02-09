@@ -41,6 +41,14 @@
     text-align: left;
     font-weight: 600;
 }
+
+.title2 {
+    letter-spacing: -1.5px;
+    font-size: 64px;
+    text-align: left;
+    font-weight: 600;
+    display: none;
+}
 .title span {
     color: #ffcc02;
 }
@@ -89,4 +97,88 @@
     padding: 10px;
     height: 26px;
     width: 29px;
+}
+
+@media (max-width: 840px) {
+    .title h2,
+    .title span {
+        display: none;
+    }
+
+    .title2 {
+        display: block;
+        font-size: 32px;
+    }
+    .title2 span {
+        color: #ffcc02;
+    }
+    .container {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .imageContainer img {
+        width: 100%;
+        flex: 1;
+    }
+
+    .imageContainer {
+        flex: 1;
+        display: flex;
+
+        justify-content: center;
+        padding: 0 0 20px 0;
+        width: 100%;
+    }
+
+    .textContainer {
+        gap: 0px;
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .paragraph p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .iconContainer {
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .textMainContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .textContainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 840px) {
+    .textContainer {
+        width: 500px;
+        gap: 0;
+    }
+    .title h2 {
+        font-size: 50px;
+    }
+
+    .paragraph p {
+        padding: 10px 5px;
+    }
+
+    .container {
+        gap: 0;
+    }
+    .imageContainer {
+        align-self: center;
+    }
+    .imageContainer img {
+        width: 550px;
+    }
 }
