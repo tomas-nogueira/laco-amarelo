@@ -72,7 +72,7 @@ export default () => {
       </Swiper>
 
       <div>
-        <button class={Style.btn}>Ver mais!</button>
+        <a href="/galeria"><button class={Style.btn}>Ver mais!</button></a>
       </div>
     </div>
       

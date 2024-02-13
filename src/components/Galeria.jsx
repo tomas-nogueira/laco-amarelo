@@ -41,10 +41,12 @@ const Galeria = () => {
   const getImg= (imgSrc) => {
     setTempImgSrc(imgSrc);
     setModel(true);
+    console.log("Model is now open")
   }
 
   return(
      <>
+      <h2 className={Style.h2}>GALERIA</h2>
       <div className={model? "model open" : "model"}>
         <img src={tempimgSrc} className={Style.img2}/>
       </div>
@@ -52,7 +54,7 @@ const Galeria = () => {
           {data.map((item, index)=>{
             return(
               <div className={Style.pics} key={index} onClick={() => getImg(item.imgSrc)}>
-                <img src={item.imgSrc} alt="Foto 1" className={Style.img}/>
+                <img src={item.imgSrc} alt="Foto 1" className={Style.img2}/>
               </div>
             )
           })}

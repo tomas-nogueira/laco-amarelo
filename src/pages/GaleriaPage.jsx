@@ -6,7 +6,6 @@ function GaleriaPage() {
   return (
     <div>
       <Navbar/>
-      <h2>GALERIA</h2>
       <Galeria/>
     </div>
   )

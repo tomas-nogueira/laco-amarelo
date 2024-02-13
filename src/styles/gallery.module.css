@@ -1,4 +1,10 @@
-.img{
+.h2 {
+    font-size: 2.5em;
+    padding: .5em;
+    font-weight: 600;
+}
+
+.img2{
     width: 100%;
 }
 .gallery {
@@ -24,7 +30,7 @@
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:560px) {
     .gallery {
         -webkit-column-count: 1;
         -moz-column-count: 1;
@@ -46,20 +52,17 @@
     justify-content: center;
     align-items: center;
     background-color: #0000;
-    transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
     visibility: hidden;
     opacity: 0;
     transform: scale(0);
-    overflow: hidden;
-    z-index: 99999;
+    z-index: 9999999999999;
 }
 .model.open {
-    background-color: rgba(255, 0, 0, 0.5);
     visibility: visible;
     opacity: 1;
     transform: scale(1);
 }
-.model.open img {
+.model img {
     width: auto;
     max-width: 100%;
     height: auto;
