@@ -6,7 +6,7 @@ import AboutMe from "./pages/AboutMe.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Produtos from "./pages/Produtos";
 import Contato from "./pages/Contato.jsx";
-import Galeria from "./pages/Galeria.jsx";
+import GaleriaPage from "./pages/GaleriaPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/galeria",
-        element: <Galeria />,
+        element: <GaleriaPage/>,
     }
 ]);
 
