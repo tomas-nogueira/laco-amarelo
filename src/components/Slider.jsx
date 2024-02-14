@@ -71,7 +71,7 @@ export default () => {
       <SwiperSlide><img src={six} alt="" class={Style.img}/></SwiperSlide>
       </Swiper>
 
-      <div>
+      <div className={Style.lastdiv}>
         <a href="/galeria"><button class={Style.btn}>Ver mais!</button></a>
       </div>
     </div>
