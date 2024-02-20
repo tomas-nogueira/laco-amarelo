@@ -6,6 +6,7 @@ import four from '../photos/carrousel-photos/four.jpg'
 import five from '../photos/carrousel-photos/five.jpg'
 import six from '../photos/carrousel-photos/six.jpg'
 import Style from '../styles/gallery.module.css'
+import { MdClose } from "react-icons/md"; 
 
 const Galeria = () => {
   let data = [
@@ -47,8 +48,9 @@ const Galeria = () => {
   return(
      <>
       <h2 className={Style.h2}>GALERIA</h2>
-      <div className={model? "model open" : "model"}>
-        <img src={tempimgSrc} className={Style.img2}/>
+      <div className={ (model) ? Style.open : Style.close}>
+        <img src={tempimgSrc} className={ (model) ? Style.modelImg : Style.mc } />
+        <MdClose onClick={() => setModel(false)} className={ (model) ? Style.mdClose : Style.mdOpen }/>
       </div>
       <div className={Style.gallery}>
           {data.map((item, index)=>{
